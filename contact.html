@@ -137,7 +137,7 @@
               <h2 class="font-display text-xl font-bold text-white mb-2">Send a Message</h2>
               <p class="text-sm text-slate-400 mb-8">Fill out the form below and I'll get back to you as soon as possible.</p>
 
-              <form class="contact-form space-y-6" novalidate>
+              <form class="contact-form space-y-6" novalidate data-endpoint="https://formsubmit.co/ajax/luckiesdabwoy@gmail.com">
                 <div class="grid sm:grid-cols-2 gap-6">
                   <div>
                     <label for="name" class="block text-sm font-medium text-slate-300 mb-2">Full Name <span class="text-emerald-400">*</span></label>
@@ -177,6 +177,9 @@
                   <label for="message" class="block text-sm font-medium text-slate-300 mb-2">Message <span class="text-emerald-400">*</span></label>
                   <textarea id="message" name="message" required rows="5" class="form-input resize-none" placeholder="Tell me about your project, timeline, and goals..."></textarea>
                 </div>
+
+                <input type="hidden" name="_subject" value="New portfolio contact form submission">
+                <input type="hidden" name="_captcha" value="false">
 
                 <button type="submit" class="btn btn-primary w-full sm:w-auto">
                   <span class="flex items-center gap-2">

@@ -329,11 +329,10 @@
   function initForms() {
     const forms = document.querySelectorAll('.contact-form');
     forms.forEach(form => {
-      form.addEventListener('submit', e => {
+      form.addEventListener('submit', async e => {
         e.preventDefault();
 
         const formData = new FormData(form);
-        const data = Object.fromEntries(formData.entries());
 
         // Basic validation
         let isValid = true;
@@ -353,18 +352,32 @@
         const originalText = btn.textContent;
         btn.textContent = 'Sending...';
         btn.disabled = true;
+        const endpoint = form.dataset.endpoint;
 
-        setTimeout(() => {
+        try {
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json'
+            },
+            body: formData
+          });
+
+          if (!response.ok) throw new Error('Request failed');
+
           btn.textContent = 'Sent ✓';
           btn.classList.add('btn-sent');
           form.reset();
-
+        } catch (error) {
+          btn.textContent = 'Try again';
+          alert('There was a problem sending your message. Please try again or email directly.');
+        } finally {
           setTimeout(() => {
             btn.textContent = originalText;
             btn.disabled = false;
             btn.classList.remove('btn-sent');
           }, 2500);
-        }, 1200);
+        }
       });
     });
   }
