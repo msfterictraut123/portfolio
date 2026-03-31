@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Lucky Nakola — Developer Portfolio
+# ⚡ Nova — Developer Portfolio
 
 **Tier-1 multi-page developer showcase built with modern web standards**
 
@@ -20,7 +20,7 @@
 
 ## 👋 About
 
-I'm **Lucky Nakola**, a Software Engineer & AI Innovator based in Nairobi, Kenya. This portfolio is a multi-page showcase of my work, skills, and professional journey — designed to command attention from recruiters and engineering leads.
+I'm **Nova**, a Software Engineer & AI Innovator with global reach. This portfolio is a multi-page showcase of my work, skills, and professional journey — designed to command attention from recruiters and engineering leads.
 
 The site follows a **"Confident Futurism"** dark theme with a cyan/violet gradient accent system, built entirely with semantic HTML5, Tailwind CSS, and vanilla JavaScript — no frameworks, no build tools, zero dependencies.
 
@@ -71,7 +71,7 @@ MY-PORTFOLIO/
 │   └── ARCHITECTURE_BLUEPRINT.md
 ├── img/                     # Project screenshots & profile photo
 ├── pdf/
-│   └── LUCKY NAKOLA CV.pdf  # Downloadable CV
+│   └── NOVA CV.pdf  # Downloadable CV
 ├── index.html               # Home / hero page
 ├── about.html               # About page
 ├── expertise.html           # Skills & expertise page
@@ -106,8 +106,8 @@ The visual identity is built on CSS custom properties defined in `css/styles.css
 
 ```
 Background:   #030712 (base) → #0f172a (surface) → #1e293b (elevated)
-Accent:       #06b6d4 (cyan-500)
-Gradient:     135deg → cyan-500 → violet-500
+Accent:       #06b6d4 (emerald-500)
+Gradient:     135deg → emerald-500 → amber-500
 Gold:         #eab308 (highlights)
 ```
 
@@ -147,14 +147,14 @@ Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
 | Channel | Link |
 |---|---|
 | **Email** | [luckiesdabwoy@gmail.com](mailto:luckiesdabwoy@gmail.com) |
-| **LinkedIn** | [Lucky Nakola](https://www.linkedin.com/in/lucky-nakola-a09633250/) |
+| **LinkedIn** | [Nova](https://www.linkedin.com/in/lucky-nakola-a09633250/) |
 | **GitHub** | [@WAIYAH](https://github.com/WAIYAH) |
 | **WhatsApp** | [+254 715 674 828](https://wa.me/254715674828) |
-| **Location** | Nairobi, Kenya 🇰🇪 |
+
 
 ---
 
 <div align="center">
-  <p><strong>Built with 💙 by Lucky Nakola</strong></p>
+  <p><strong>Built with 💙 by Nova</strong></p>
   <p><sub>© 2026 — All rights reserved</sub></p>
 </div>

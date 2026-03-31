@@ -1,4 +1,4 @@
-# Architecture Blueprint — Lucky Nakola Portfolio
+# Architecture Blueprint — Nova Portfolio
 
 > Version 2.0 | Principal Engineer Redesign | February 2026
 
@@ -7,7 +7,7 @@
 ## A. Strategic Foundation
 
 ### Vision Statement
-Transform Lucky Nakola's portfolio from a single-page showcase into a multi-page, tier-1 developer portfolio that commands attention from senior engineering leads, demonstrates architectural thinking, and communicates professional value with precision and taste.
+Transform Nova's portfolio from a single-page showcase into a multi-page, tier-1 developer portfolio that commands attention from senior engineering leads, demonstrates architectural thinking, and communicates professional value with precision and taste.
 
 ### Target Audience
 | Audience | Goal | Key Signal |
@@ -83,7 +83,7 @@ JavaScript enhances with: scroll animations, mobile menu, typing effects, form v
 ```
 Background:   #030712 (base), #0f172a (surface), #1e293b (elevated)
 Text:         #f1f5f9 (primary), #94a3b8 (secondary), #64748b (tertiary)
-Accent:       #06b6d4 (cyan-500), #22d3ee (cyan-400), #0891b2 (cyan-600)
+Accent:       #06b6d4 (emerald-500), #22d3ee (emerald-400), #0891b2 (emerald-600)
 Gold:         #eab308 (brand accent), #facc15 (light), #ca8a04 (dark)
 Gradient:     135deg, #06b6d4 → #8b5cf6 (cyan → violet)
 ```
